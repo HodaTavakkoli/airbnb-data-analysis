@@ -1,36 +1,38 @@
-Airbnb Data Analysis
-A data analysis project focused on exploring Airbnb listing data and extracting meaningful insights using Python and common data science tools.
+# Airbnb NYC Data Analysis 🏙️
 
-Project Overview
-The goal of this project is to perform exploratory data analysis (EDA) on Airbnb listing data to understand patterns in pricing, location, availability, and other important factors.
+This project focuses on exploratory data analysis (EDA) of the Airbnb NYC 2019 dataset.
+The goal is to practice a real-world data analysis workflow while improving Python,
+pandas, and data visualization skills.
 
-This project is part of a portfolio designed to demonstrate practical data science skills such as data cleaning, visualization, and insight generation.
+---
 
-Tools & Libraries
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-Project Structure
-text
-airbnb-data-analysis
+## 📌 Project Goals
+- Understand the structure of a real-world dataset
+- Clean and preprocess raw data
+- Perform exploratory data analysis (EDA)
+- Discover pricing and availability patterns
+- Visualize insights clearly
+- Document the analysis process professionally
+
+---
+
+## 🗂️ Project Structure
+```text
+airbnb-data-analysis/
 │
-├── notebooks
-│   └── eda.ipynb
+├── data/
+│   └── AB_NYC_2019.csv
 │
-├── roadmap.md
+├── notebooks/
+│   ├── 01_data_loading.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   └── 03_eda.ipynb
+│
+├── src/
+│   └── utils.py
+│
+├── README.md
+├── learning-roadmap.md
 ├── dev-log.md
-└── README.md
-Objectives
-Clean and preprocess real-world data
-Perform exploratory data analysis (EDA)
-Visualize patterns and trends
-Extract meaningful insights
-Future Work
-Feature engineering
-Building predictive models
-Creating interactive dashboards
-Author
-Hoda Tavakkoli
+├── requirements.txt
+└── .gitignore
